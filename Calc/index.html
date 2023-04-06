@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tran Tuan Kiet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="calculator">
+            <div class="title">Máy tính bỏ túi</div>
+            <div class="value">
+                <input type="text" id="result" value="0">
+                <button onclick="deleteNumber()">DEL</button>
+            </div>
+            <div class="btns">
+                <button onclick="pressNumber(7)">7</button>
+                <button onclick="pressNumber(8)">8</button>
+                <button onclick="pressNumber(9)">9</button>
+                <button onclick="pressOperator('+')">+</button>
+                <button onclick="pressNumber(4)">4</button>
+                <button onclick="pressNumber(5)">5</button>
+                <button onclick="pressNumber(6)">6</button>
+                <button onclick="pressOperator('-')">-</button>
+                <button onclick="pressNumber(1)">1</button>
+                <button onclick="pressNumber(2)">2</button>
+                <button onclick="pressNumber(3)">3</button>
+                <button onclick="pressOperator('*')">*</button>
+                <button onclick="pressNumber(0)">0</button>
+                <button onclick="deleteAllNumber('AC')">AC</button>
+                <button onclick="pressOperator('/')">/</button>
+                <button onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+      
+    <script src="main.js"></script>
+</body>
+</html>
